@@ -116,7 +116,26 @@ Ninth chapter is a summary and evaluation of the accomplished work.
 \chapter{Real-time communication applications}
 
 \chapter{Portal Specification}
+This chapters summarizes requirements put on the functionality and implementation of the portal.
+
 \section{Functional requirements}
+The main use case for the portal is to make group calls between different teams in a business organization. To make these calls as secure as possible there is a choice to restrict the ability to participate in a call to a preselected group of people.
+
+Sometimes there is a also need for communication with outside party, for example with the customers. Because these people are not part of the organization, they have no accounts setup and usually they do not want to be bothered with the process of setting things up. So to make things as easy as possible for them there is a possibility to join the meeting just by accessing the link. 
+
+During the call users can send text messages to all the participants in the shared chat. It is also possible to share files in this chat. Given that just audio and video communication is not enough in some cases there is ability to share the screen. When enabled, all participants of the call can see the screen of the person who initiated the screen sharing. 
+
+After the meeting users can see the history of all the messages sent. The files sent during the meeting are stored on the server so that they can be downloaded after the meeting. The recording of the meeting is also available to download after the meeting has ended. 
+
+All of the use cases are shown in use case diagram in figure~\ref{fig:useCase}
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[scale=0.7]{diagrams/use_case.png}
+  \end{center}
+  \caption{Use case diagram for the portal}
+  \label{fig:useCase}
+\end{figure}
 
 \section{Nonfunctional requirements}
 
