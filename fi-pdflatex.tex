@@ -81,18 +81,18 @@
 \begin{document}
 \chapter{Introduction}
 \section{Motivation}
-Online communication is becoming more and more important in today’s world. We use it everyday to communicate with our family, friends and also to communicate with our team or customers in business environment. Home office or even remote work is becoming more and more popular among many businesses and their employees. With that comes great need for some way of communicating with the rest of the team.
+Online communication is becoming more and more important in today’s world. We use it everyday to communicate with our family, friends and also to communicate with our team members or customers in business environment. Home office or even remote work is becoming more and more popular among many businesses and their employees. With that comes great need for high quality and reliable way of communicating with the rest of the team.
 
-This thesis is a follow up to the bachelor thesis WebRTC meeting portal \cite{bachelorThesis} written in 2016. It was written as a proof of concept of “relatively” young and not yet widely used technology at that time called WebRTC\footnote{Web Real-Time Communication - https://webrtc.org/
-}. Main goal was to build a usable communication portal using newest web platform capabilities. The main way of communicating using the portal were audio and video calls between two or more participants.
+This thesis is a follow up to the bachelor thesis WebRTC meeting portal  \cite{bachelorThesis} written in 2016. It was written as a proof of concept of “relatively” young and not yet widely used technology at that time called WebRTC\footnote{Web Real-Time Communication - https://webrtc.org/
+}. Main goal was to build a usable meeting portal using newest web platform capabilities. The main ways of communicating using the portal are audio and video calls between two or more participants. It is also possible to exchange text messages and see the list of participants. Everything is secured so that only invited people can join the meeting.
 
-The meeting portal is very simple and offers many opportunities for new functionality and improvements. It only allows authenticated users to participate in the conference call. It was not built with scalability in mind and therefore only very small number of users is able the connect before the quality degrades. There is no possibility to mute the audio or screen share. This thesis focuses on these new features. 
+The meeting portal is very simple and offers many opportunities for new functionality and improvements. It only allows authenticated users to participate in the conference call which on one hand provides better security for the meeting, but on the other hand it can drive some people away as they do not want to create account for yet another service. Especially when they want to use it one time. It was not built with scalability in mind and therefore only very small number of users is able the connect before the quality degrades. There is no possibility to mute the audio or screen share. This thesis elaborates on some of the mentioned shortcomings and also introduces couple new features.
 
 \section{Goal of the thesis}
-Main disadvantage of the previous portal are high requirements on the users bandwidth when participating in the multi-party conference call. Therefore main architecture goal of this thesis is to build the portal with a higher scalability in mind so that it can handle higher number of participants without big degradation of call quality.
+Main disadvantage of the previous portal are high requirements on the users bandwidth when participating in the multi-party conference call. Therefore biggest focus and architecture goal of this thesis is to build the portal with a higher scalability in mind so that it can handle higher number of participants without big degradation of call quality.
 
-Focus is placed on better user experience. This includes features such as possibility to mute the microphone, disable camera feed or joining  the conference without the user account. Also there will be possibility to share the screen.
-
+ Focus is placed on better user experience. This includes features such as possibility to mute the microphone, disable camera feed or joining  the conference without the user account. Also there will be possibility to share the screen.
+ 
 During the meeting it should be possible to share files between the participants of the call. After the meeting all users with an account who participated in the call will be able to access, view and download the recording of the call.
 
 \section{Structure}
